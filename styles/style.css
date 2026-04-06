@@ -50,5 +50,38 @@
 
 /* new year offer styles here  */
 
+.offer-container{
+    margin: 3rem 4rem;
+
+}
+
+.offer-content{
+    text-align: center;
+    font-family: var(--external-font);
+}
+
+.offer-title{
+    color: #FF0000;
+    font-weight: 900;
+}
+
+.offer-description{
+    font-size: 10px;
+    margin: 1rem 0 0.5rem;
+}
+
+.offer-img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 3rem;
+}
+
+.offer-img img{
+    width: 70%;
+}
+
+
+/* Midnight party container styles here  */
 
 
