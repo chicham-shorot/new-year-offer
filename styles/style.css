@@ -1,0 +1,54 @@
+/* google fonts import  */
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Merriweather:ital,opsz,wght@0,18..144,300..900;1,18..144,300..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+:root{
+    --heading-font: "Merriweather", serif;
+    --external-font: "Inter", serif;
+}
+
+/* banner container styles here  */
+
+.banner-container{
+    background: linear-gradient(to bottom, rgb(16, 16, 16) -19.5%, rgb(16, 16, 16, 0) 100%), url("../images/Banner Image.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: auto;
+    margin: 1rem 4rem;
+    height: 450px;
+    border: none;
+    border-radius: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.banner-content{
+    width: 50%;
+    color: white;
+    text-align: center;
+}
+
+.banner-subtitle{
+    font-weight: 500;
+    margin-bottom: 1.5rem;
+    opacity: 0.6;
+    font-family: var(--heading-font);
+}
+
+.banner-title{
+    font-size: 3rem;
+    font-weight: 800;
+    font-family: var(--heading-font);
+}
+
+/* new year offer styles here  */
+
+
+
