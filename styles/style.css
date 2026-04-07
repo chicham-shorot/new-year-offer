@@ -170,4 +170,46 @@
     background-color: blueviolet;
 }
 
+/* Coming soon container styles here  */
+
+.coming-soon-container{
+    margin: 3rem 4rem;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 3rem;
+}
+
+.coming-soon-img img{
+    width: 100%;
+}
+
+.coming-soon-subtitle{
+    margin-bottom: 0.5rem;
+    color: #FF0000;
+    font-weight: 500;
+}
+
+.coming-soon-description{
+    color: #070211;
+    opacity: 0.7;
+    margin-top: 1rem;
+}
+
+.coming-sub-content-title{
+    color: #FF0000;
+    margin-bottom: 1rem;
+}
+
+
+.coming-soon-sub-content p{
+    color: #070211;
+    opacity: 0.5;
+    margin-bottom: 1rem;
+} 
+
+/* Coming soon container styles here  */
+
+
+
 
