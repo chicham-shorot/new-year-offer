@@ -173,7 +173,7 @@
 /* Coming soon container styles here  */
 
 .coming-soon-container{
-    margin: 3rem 4rem;
+    margin: 3rem 4rem 5rem;
     display: flex;
     justify-content: space-evenly;
     align-items: center;
@@ -182,6 +182,8 @@
 
 .coming-soon-img img{
     width: 100%;
+    border: 1rem solid #FF0000;
+    border-radius: 50%;
 }
 
 .coming-soon-subtitle{
@@ -208,8 +210,58 @@
     margin-bottom: 1rem;
 } 
 
-/* Coming soon container styles here  */
+/* holyday sale container styles here  */
 
+.holyday-sale-container{
+    margin: 4rem 4rem;
+}
 
+.holyday-sale-subtitle{
+    font-weight: 300;
+    opacity: 0.6;
+}
 
+.holyday-sale-title{
+    margin: 1rem 0rem;
+}
+
+.holyday-sale-description{
+    color: #070211;
+    opacity: 0.7;
+}
+
+.holyday-sale-content{
+    text-align: center;
+    margin-bottom: 4rem;
+}
+
+.red-text{
+    color: #FF0000;
+}
+
+.holyday-sale-image{
+    background-image: url("../images/Rectangle\ 2.png");
+    background-repeat: no-repeat;
+    background-size: 90%;
+    background-position: bottom;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 2rem;
+    padding: 2rem;
+    position: absolute;
+}
+
+.gif-img{
+    position: relative;
+    bottom: -10%;
+    width: 50%;
+}
+
+.off-img{
+    position: absolute;
+    top: -6%;
+    right: 10%;
+    width: 200px;
+}
 
