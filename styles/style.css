@@ -249,7 +249,7 @@
     align-items: center;
     gap: 2rem;
     padding: 2rem;
-    position: absolute;
+    position: relative;
 }
 
 .gif-img{
@@ -265,3 +265,45 @@
     width: 200px;
 }
 
+/* portfolio container styles here  */
+
+.portfolio-container{
+    margin: 1rem 4rem;
+    
+}
+
+.portfolio-content{
+    margin-bottom: 3rem;
+    width: 60%;
+}
+
+.portfolio-title{
+    margin: 1rem 0rem;
+    font-family: var(--heading-font);
+}
+
+.portfolio-subtitle{
+    color: #FF0000;
+}
+
+.portfolio-description{
+    color: #070211;
+    opacity: 0.7;
+}
+
+.portfolio-images{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1rem;
+    margin-bottom: 3rem;
+}
+
+.portfolio-images img{
+    width: 100%;
+    border: none;
+    border-radius: 13px;
+}
+
+.portfolio-images img:hover{
+    box-shadow: 0px 0px 5px 5px #6d6c6e;
+}
